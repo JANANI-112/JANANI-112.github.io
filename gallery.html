@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>gallery</title>
+<style>
+    .header
+    {
+        font-size: 40px;
+        font-weight:bold;
+        text-align: center;
+        background-color: #9e1140;
+        color:black;
+    }
+    .imgbox
+    {
+        display:grid;
+        grid-template-columns: repeat(3,200px);
+        gap:20px;
+        padding:40px;
+        justify-content: center;
+    }
+    .im
+    {
+        height:200px;
+        width:200px;
+        border: 2px solid #555;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        font-weight: bold; 
+        background-color: #f2f2f2;
+
+    }
+    .im:hover
+    {
+        background-color: #a67988;
+        color: white;
+        border-color: #9e1140;
+        transform:scale(1.05);
+    }
+    .footer
+    {
+        background-color: #333;
+        color:white;
+        padding: 8px;
+
+    }
+</style>
+</head>
+<body>
+    <div class="header">PORSCHE</div>
+    <div class="imgbox">
+        <div class="im">Image 1</div>
+        <div class="im">Image 2</div>
+        <div class="im">Image 3</div>
+        <div class="im">Image 4</div>
+        <div class="im">Image 5</div>
+        <div class="im">Image 6</div>
+    </div>
+    <div class="footer">Footer</div>
+
+</body>
+</html>

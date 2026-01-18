@@ -1,0 +1,53 @@
+body{
+    background-color:  #f4f4f4;
+}
+header
+{
+    background-color: #003366;
+    color: white;
+    text-align:center;
+    padding:15px;
+}
+nav a
+{
+    color:white;
+    font-weight:bold;
+}
+nav a:hover{
+    background-color: #28705e;
+    color: #ffcc00;
+    text-decoration:underline;
+}
+.container
+{
+    width=900px;
+
+}
+.course
+{
+    background-color:white;
+    padding:15px;
+    border-radius:5px;
+}
+.card
+{
+    background-color:white;
+    padding:15px;
+    border-radius:5px;
+}
+table{
+    width:80%;
+}
+table,th,td
+{
+border: 1.5px solid white;
+padding: 4px;
+text-align: center;
+}
+.footer
+{
+    background-color:#222;
+    color: white;
+    text-align:center;
+    padding:15px;
+}

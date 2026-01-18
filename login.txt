@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>login page</title>
+        <style>
+            body{
+                place-items:center;
+            }
+            .container
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height:100vh;
+            }
+            .box
+            {
+                border: 2px solid white;
+                border-radius: 10px;
+                padding: 10px;
+                color:#a6f5e1;
+                background-color:#376f7a;
+                width: 300px;
+                height:250px;
+                
+            }
+            input[type="submit"]:hover
+            {
+                background-color:lightskyblue;
+                color:black;
+            }
+            label
+            {
+                color:#0f2024;
+                font-weight:bold;
+                font-size:22px;
+            }
+            
+        </style>
+    </head>
+    <body style="background-color:black;">
+        <div class="container">
+            <div class="box">
+            <h1 style="text-align: center;">Login page</h1>
+            <form>
+                <label>Username:</label>
+                <input type="text" name="uname" id="uname">
+                <label>Password:</label>
+                <input type="password" name="pwd" id="pwd">
+                <label>Remember me:</label>
+                <input type="checkbox" name="rem" id="rem">
+                <div><input type="submit" value="login" name="log" id="log"></div>
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
